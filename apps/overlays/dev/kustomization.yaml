@@ -8,3 +8,5 @@ resources:
 
 patchesStrategicMerge:
   - replicas.yaml
+  - image-broken.yaml
+  - security-override.yaml
