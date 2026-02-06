@@ -25,10 +25,7 @@ spec:
           image: gcr.io/google-samples/hello-app:1.0
           imagePullPolicy: IfNotPresent
           securityContext:
-            allowPrivilegeEscalation: false  # Changed from privileged: true
-            capabilities:
-              drop:
-                - ALL
+            privileged: false
           ports:
             - containerPort: 8080
           resources:
