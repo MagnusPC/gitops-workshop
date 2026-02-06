@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/MagnusPC/gitops-workshop
+    repoURL: https://github.com/MagnusPC/gitops-workshop.git
     targetRevision: main
     path: apps/demo-app
   destination:

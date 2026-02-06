@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/codeclubcph/gitops-workshop.git
+    repoURL: https://github.com/MagnusPC/gitops-workshop.git
     targetRevision: main
     path: apps/overlays/dev # Points to the Dev settings
   destination:
