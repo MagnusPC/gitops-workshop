@@ -1,3 +1,7 @@
+# custom
+.kube
+.kind
+
 # Local .terraform directories
 .terraform/
 
