@@ -1,4 +1,4 @@
-apiVersion: argoproj.io/v1alpha1  # Changed from apps/v1
+apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: demo-app
