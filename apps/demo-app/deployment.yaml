@@ -22,7 +22,7 @@ spec:
         runAsUser: 1000
       containers:
         - name: demo-app
-          image: gcr.io/google-samples/hello-app:1.0
+          image: nginx:broken-tag
           imagePullPolicy: IfNotPresent
           securityContext:
             privileged: true #TODO use to check constraints
