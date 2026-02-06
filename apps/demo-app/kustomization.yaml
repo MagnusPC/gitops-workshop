@@ -4,6 +4,8 @@ namespace: demo
 resources:
   - deployment.yaml
   - service.yaml
+  - service-active.yaml
+  - service-preview.yaml
 
 commonLabels:
   app.kubernetes.io/managed-by: argo-cd-demo
