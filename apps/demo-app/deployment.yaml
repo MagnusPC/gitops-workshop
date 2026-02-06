@@ -25,7 +25,7 @@ spec:
           image: gcr.io/google-samples/hello-app:1.0
           imagePullPolicy: IfNotPresent
           securityContext:
-            privileged: true
+            privileged: true #TODO use to check constraints
           ports:
             - containerPort: 8080
           resources:
